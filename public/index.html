@@ -1,0 +1,369 @@
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NFT</title>
+    <!-- STYLESHEET -->
+    <link rel="stylesheet" href="styles.css">
+    <!-- REMIX ICONS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css"/>
+    <!-- FONT AWESOME -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"/>
+    <!-- MATERIAL ICON -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  </head>
+
+  <body class="text-gray-600 ">
+    <!-- Content wrapper -->
+    <div class="content">
+      <!-- Navigation bar -->
+      <div class="nav_bar">
+        <nav class="relative m-2 p-2 bg-secondary-200 text-primary rounded">
+          <!-- Flex container -->
+          <div class="flex items-center justify-between">
+          <div class="nav_header p-4">
+            <h1>
+              <a href="#">
+                <span class="text-2xl pt-4 uppercase">
+                  Snowdrop <img src="../public/Images/fm.jpg" alt="logo" class="inline relative w-20 h-20 rounded-full overflow-hidden border-gray-100 shadow-sm">
+                </span></a>
+            </h1>
+          </div>
+
+          <!-- Menu -->
+            <div class=" sm:hidden md:flex space-x-4 pt-12 p-4">
+              <a href="#" class="text-grey-700 font-bold hover:text-hover">Explore</a>
+              <a href="#" class="hover:text-hover">Artiste</a>
+              <a href="#" class="hover:text-hover">Wallet</a>
+              <a href="#" class="hover:text-hover"><span>Listen Now </span></a>
+              <a href="#" <i class="ri-play-circle-fill text-bright text-3xl hover:text-light"></i></a>
+              <a href="#" class="p-2 px-8 bg-bright rounded-full hover:bg-light">Create</a>
+              <a href="#" class="hover:text-hover"><i class="ri-account-circle-line text-3xl"></i></a>
+            </div>
+
+          <!-- Menu button -->
+            <button id="menu-btn" class="block drape md:hidden
+            focus:ouline-none">
+            <span class="drape-top"></span>
+            <span class="drape-middle"></span>
+            <span class="drape-bottom"></span>
+          </button>
+      </div><!-- end nav -->
+
+      <!-- Mobile -->
+    <div class="sm: hidden md:hidden">
+      <div id="menu" class="absolute flex-col items-center self-end
+      hidden py-8 mt-10 space-y-6 bg-secondary-200 font-bold sm:w-auto sm:self-center
+      left-6 right-6 drop-shadow-md">
+      <a href="#" class="text-grey-700 font-bold hover:text-hover">Explore</a>
+      <a href="#" class="hover:text-hover">Artiste</a>
+      <a href="#" class="hover:text-hover">Wallet</a>
+      <a href="#" class="hover:text-hover"><span>Listen Now </span></a>
+      <a href="#" <i class="ri-play-circle-fill text-bright text-3xl hover:text-light"></i></a>
+      <a href="#" class="p-2 px-8 bg-bright rounded-full hover:bg-light">Create</a>
+      <a href="#" class="hover:text-hover"><i class="ri-account-circle-line text-3xl"></i></a>
+      </div>
+    </div>
+    </nav>
+  </div>
+      <main class="justify-center">
+        <!-- Home NFT -->
+        <div class="home_NFT">
+          <div class=" rounder m-2 p-4">
+            <img src="../public/Images/ape_4.jpg" alt="NFT image" id="nft" class="w-full h-32 sm:h-48 object-cover">
+            <i class="relative ri-more-2-fill text-2xl text-white bottom-48 float-right"></i>
+
+              <img src="../public/Images/user_1.jfif" alt="user" id="user"
+              class="absolute w-20 h-20 -right-4 left-96 top-80 rounded-full border-gray-100">
+              <span id="check" class="material-icons text-blue-400 text-xs relative ml-96 -right-10">verified</span>
+        </div>
+
+            <div class="flex justify-center top-2 md:justify-end">
+            <button class="p-2 border-2 rounded shadow-2 mr-8"><a href="#"> + Add to wishlist</a></button>
+          </div>
+
+          <div class="justify-center text-center m-8">
+            <h2 class="font-bold"> Ape NFTs Collection By Orhmo</h2>
+            <p class="text-xs "> Ape NFT collection by Orhmo is a limited collection of 7000 unique
+               3D NFTs with hundreds of unique attributes <br> captured on Ethereum blockchain.
+               Ape NFT collection is inspired by one of the most popular puzzle and brain <br> teaser
+               games ever - Orhmo by Handsforth Games.
+              </p>
+            </div>
+              <div>
+              <div class=" flex volume_block justify-center">
+                <table class="table-auto">
+                  <tbody>
+                    <tr>
+                <td class="data">
+                  <span class="uni">5.6k</span>
+                  <span class="unit">Items</span>
+                </td>
+                <td class="data">
+                  <span class="uni">4k</span>
+                  <span class="unit">Owners</span>
+                </td>
+                <td class="data">
+                  <span class="uni"><i class="fa-brands fa-ethereum"></i> 0.789</span>
+                  <span class="unit">Floor Price</span>
+                </td>
+                <td class="data">
+                  <span class="uni"><i class="fa-brands fa-ethereum"></i> 3k</span>
+                  <span class="unit">Volume traded</span>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+              </div><!-- Volume block end -->
+            </div>
+        </div><!-- home end -->
+
+        <div class="px-16 py-6">
+        <!-- Other NFTs -->
+        <div class="other_NFTs grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 gap-12">
+          <!-- cards -->
+          <div class="card">
+            <img src="../public/Images/ape_1.jpg" alt="NFT image" class="w-full">
+            <div class="m-2 p-4">
+              <span class="font-bold space-x-6">Ape NFTs Collection<span class="badge_1"> Top bid </span></span>
+              <span class="font-bold block">#2956</span>
+              <span class="block mb-2 text-gray-200 text-xs">Created by orhmo_ <span class="badge_1"><i class="text-eth text-xl fa-brands fa-ethereum"></i> 2.43 </span></span>
+              <button class="text-xs p-2 bg-secondary-100 rounded-full"> Buy Now </button>
+              <span class="badge_2"> 20 Hours left </span>
+            </div>
+          </div>
+
+            <div class="card">
+              <img src="../public/Images/ape_2.jpg" alt="NFT image" class="w-full">
+              <div class="m-2 p-4">
+                <span class="font-bold relative space-x-6">Ape NFTs Collection</span>
+                <span class="badge_1"> Top bid </span>
+                <span class="font-bold block">#1259</span>
+                <span class="block mb-2 text-gray-200 text-xs">Created by orhmo_ <span class="badge_1"><i class="text-eth text-xl fa-brands fa-ethereum"></i> 1.43 </span></span>
+                <button class="text-xs p-2 bg-secondary-100 rounded-full"> Buy Now </button>
+                <span class="badge_2"> 20 Hours left </span>
+              </div>
+            </div>
+
+              <div class="card">
+                <img src="../public/Images/ape_3.jpg" alt="NFT image" class="w-full">
+                <div class="m-2 p-4">
+                  <span class="font-bold space-x-6">Ape NFTs Collection</span>
+                  <span class="badge_1"> Top bid </span>
+                  <span class="font-bold block">#3276</span>
+                  <span class="block mb-2 text-gray-200 text-xs">Created by orhmo_ <span class="badge_1"><i class="text-eth text-xl fa-brands fa-ethereum"></i> 2.23 </span></span>
+                  <button class="text-xs p-2 bg-secondary-100 rounded-full"> Buy Now </button>
+                  <span class="badge_2"> 20 Hours left </span>
+                </div>
+              </div>
+
+                <div class="card">
+                  <img src="../public/Images/ape_4.jpg" alt="NFT image" class="w-full">
+                  <div class="m-2 p-4">
+                    <span class="font-bold space-x-6">Ape NFTs Collection</span>
+                    <span class="badge_1"> Top bid </span>
+                    <span class="font-bold block">#6890</span>
+                    <span class="block mb-2 text-gray-200 text-xs">Created by orhmo_ <span class="badge_1"><i class="text-eth text-xl fa-brands fa-ethereum"></i> 2.23 </span></span>
+                    <button class="text-xs p-2 bg-secondary-100 rounded-full"> Buy Now </button>
+                    <span class="badge_2"> 20 Hours left </span>
+                  </div>
+                </div>
+
+                  <div class="card">
+                    <img src="../public/Images/ape_5.jpg" alt="NFT image" class="w-full">
+                    <div class="m-2 p-4">
+                      <span class="font-bold space-x-6">Ape NFTs Collection</span>
+                      <span class="badge_1"> Top bid </span>
+                      <span class="font-bold block">#7456</span>
+                      <span class="block mb-2 text-gray-200 text-xs">Created by orhmo_ <span class="badge_1"><i class="text-eth text-xl fa-brands fa-ethereum"></i> 1.89 </span></span>
+                      <button class="text-xs p-2 bg-secondary-100 rounded-full"> Buy Now </button>
+                      <span class="badge_2"> 20 Hours left </span>
+                    </div>
+                  </div>
+
+                    <div class="card">
+                      <img src="../public/Images/ape_6.jpg" alt="NFT image" class="w-full">
+                      <div class="m-2 p-4">
+                        <span class="font-bold space-x-6">Ape NFTs Collection</span>
+                        <span class="badge_1"> Top bid </span>
+                        <span class="font-bold block">#3896</span>
+                        <span class="block mb-2 text-gray-200 text-xs">Created by orhmo_ <span class="badge_1"><i class="text-eth text-xl fa-brands fa-ethereum"></i> 1.98 </span></span>
+                        <button class="text-xs p-2 bg-secondary-100 rounded-full"> Buy Now </button>
+                        <span class="badge_2"> 20 Hours left </span>
+                      </div>
+                    </div>
+
+                      <div class="card">
+                        <img src="../public/Images/ape_7.jpg" alt="NFT image" class="w-full">
+                        <div class="m-2 p-4">
+                          <span class="font-bold  space-x-6">Ape NFTs Collection</span>
+                          <span class="badge_1"> Top bid </span>
+                          <span class="font-bold block">#3226</span>
+                          <span class="block mb-2 text-gray-200 text-xs">Created by orhmo_ <span class="badge_1"><i class="text-eth text-xl fa-brands fa-ethereum"></i> 2.03 </span></span>
+                          <button class="text-xs p-2 bg-secondary-100 rounded-full"> Buy Now </button>
+                          <span class="badge_2"> 20 Hours left </span>
+                        </div>
+                      </div>
+
+                        <div class="card">
+                          <img src="../public/Images/ape_8.jpg" alt="NFT image" class="w-full">
+                          <div class="m-2 p-4">
+                            <span class="font-bold space-x-6">Ape NFTs Collection</span>
+                            <span class="badge_1"> Top bid </span>
+                            <span class="font-bold block">#2986</span>
+                            <span class="block mb-2 text-gray-200 text-xs">Created by orhmo_ <span class="badge_1"><i class="text-eth text-xl fa-brands fa-ethereum"></i> 2.45 </span></span>
+                            <button class="text-xs p-2 bg-secondary-100 rounded-full"> Buy Now </button>
+                            <span class="badge_2"> 20 Hours left </span>
+                          </div>
+                        </div>
+
+                          <div class="card">
+                            <img src="../public/Images/ape_9.jpg" alt="NFT image" class="w-full">
+                            <div class="m-2 p-4">
+                              <span class="font-bold space-x-6">Ape NFTs Collection</span>
+                              <span class="badge_1"> Top bid </span>
+                              <span class="font-bold block">#3126</span>
+                              <span class="block mb-2 text-gray-200 text-xs">Created by orhmo_ <span class="badge_1"><i class="text-eth text-xl fa-brands fa-ethereum"></i> 2.13 </span></span>
+                              <button class="text-xs p-2 bg-secondary-100 rounded-full"> Buy Now </button>
+                              <span class="badge_2"> 20 Hours left </span>
+                            </div>
+                          </div>
+
+                            <div class="card">
+                              <img src="../public/Images/ape_10.jpg" alt="NFT image" class="w-full">
+                              <div class="m-2 p-4">
+                                <span class="font-boldspace-x-6">Ape NFTs Collection</span>
+                                <span class="badge_1"> Top bid </span>
+                                <span class="font-bold block">#3439</span>
+                                <span class="block mb-2 text-gray-200 text-xs">Created by orhmo_ <span class="badge_1"><i class="text-eth text-xl fa-brands fa-ethereum"></i> 2.86 </span></span>
+                                <button class="text-xs p-2 bg-secondary-100 rounded-full"> Buy Now </button>
+                                <span class="badge_2"> 20 Hours left </span>
+                              </div>
+                            </div>
+
+                              <div class="card">
+                                <img src="../public/Images/ape_11.webp" alt="NFT image" class="w-full">
+                                <div class="m-2 p-4">
+                                  <span class="font-bold relative space-x-6">Ape NFTs Collection</span>
+                                  <span class="badge_1"> Top bid </span>
+                                  <span class="font-bold block">#3456</span>
+                                  <span class="block mb-2 text-gray-200 text-xs">Created by orhmo_ <span class="badge_1"><i class="text-eth text-xl fa-brands fa-ethereum"></i> 2.23 </span></span>
+                                  <button class="text-xs p-2 bg-secondary-100 rounded-full"> Buy Now </button>
+                                  <span class="badge_2"> 20 Hours left </span>
+                                </div>
+                              </div>
+
+                                <div class="card">
+                                  <img src="../public/Images/ape_12.webp" alt="NFT image" class="w-full">
+                                  <div class="m-2 p-4">
+                                    <span class="font-bold relative space-x-6">Ape NFTs Collection</span>
+                                    <span class="badge_1"> Top bid </span>
+                                    <span class="font-bold block">#6056</span>
+                                    <span class="block mb-2 text-gray-200 text-xs">Created by orhmo_ <span class="badge_1"><i class="text-eth text-xl fa-brands fa-ethereum"></i> 2.23 </span></span>
+                                    <button class="text-xs p-2 bg-secondary-100 rounded-full"> Buy Now </button>
+                                    <span class="badge_2"> 20 Hours left </span>
+                                  </div>
+                                </div>
+
+        </div><!-- others end -->
+        <div class="flex justify-center">
+        <div class=" mt-8 bg-secondary-200 text-primary rounded-full px-6 py-4 hover:bg-hover">
+          Load More
+        </div>
+      </div>
+
+        <!-- Subscription -->
+    <section class="bg-gray-50 rounded mt-12 mb-32 text-gray-800 text-center lg:text-left">
+    <div class="px-6 py-12 lg:my-12">
+      <div class="container mx-auto xl:px-32">
+        <div class="grid lg:grid-cols-2 gap-12 flex items-center">
+          <div class="mt-12 lg:mt-0">
+            <h1 class="text-4xl md:text-5xl xl:text-6xl font-bold mb-12">
+              Subscribe to our Newsletter</h1>
+            <p>Join our mailing list to stay in the loop with our newest feature releases,
+              NFT drops, tips and tricks for navigating ThunderLab.</p>
+            <div class="md:flex flex-row mt-4">
+              <label class="p-2 border-2 rounded-full bg-gray-200 hover:border-emerald-700">
+              <input
+                type="text"
+                class=" px-8  text-sm rounded-full font-normal text-gray-700 bg-gray-200 transition focus:text-gray-700 focus:bg-white focus:outline-none"
+                placeholder="Enter your email"
+              />
+              <button
+                type="submit"
+                class="inline px-9 py-3 bg-secondary-200 text-primary rounded-full font-medium text-sm uppercase shadow-md hover:bg-hover hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out"
+                data-mdb-ripple="true"
+                data-mdb-ripple-color="light"
+              >
+                Subscribe
+              </button>
+            </label>
+            </div>
+          </div>
+          <div class="mb-6 lg:mb-0">
+            <div class=" relativew-full rounded-lg shadow-lg">
+                <img src="../public/Images/subscribe_ape.webp">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section><!-- subscription end -->
+</main>
+</div>
+        <footer class= "px-2 py-8">
+          <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-16 m-8 px-16 py-8">
+          <div class="marketplace">
+            <h4 class="font-bold mt-2 mb-2">Marketplace</h4>
+            <ul>
+              <li><a href="#">All NFTs</a></li>
+              <li><a href="#">Art</a></li>
+              <li><a href="#">Music</a></li>
+              <li><a href="#">Sport</a></li>
+            </ul>
+          </div>
+
+          <div class="resources">
+            <h4 class="font-bold mt-2 mb-2">Resources</h4>
+            <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">Suggestions</a></li>
+              <li><a href="#">Copyright and Policy</a></li>
+            </ul>
+          </div>
+
+          <div class="community md:mt-2">
+            <h4 class="font-bold mb-2">Community</h4>
+            <ul>
+              <li><a href="#">Partners</a></li>
+              <li><a href="#">Documentation</a></li>
+              <li><a href="#">Brand Asset</a></li>
+              <li><a href="#">Blog</a></li>
+            </ul>
+          </div>
+
+          <div class="socials md:mt-2">
+            <h4 class="font-bold  mb-2">Socials</h4>
+            <ul>
+              <li><a href="#"><i class="ri-instagram-fill text-secondary-200"></i> Instagram</a></li>
+              <li><a href="#"><i class="ri-facebook-circle-fill text-secondary-200"></i> Facebook</a></li>
+              <li><a href="#"><i class="ri-twitter-fill text-secondary-200"></i>Twitter</a></li>
+              <li><a href="#"><i class="ri-discord-fill text-secondary-200"></i> Discord</a></li>
+            </ul>
+          </div>
+        </div>
+          <div class="footer_border m-2 p-4 mt-4 border-t"></div>
+          <div class="copyright text-xs text-center">
+            Copyright &#169; Snowdrop FM 2022 All Rights Reserved
+          </div>
+        </footer>
+  </div>
+
+  <script
+    src="js/script.js">
+  </script>
+  </body>
+</html>

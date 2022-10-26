@@ -1,0 +1,68 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.card{
+  @apply mt-8 bg-white rounded shadow-md hover:scale-110;
+}
+
+.badge_1{
+  @apply text-xs text-black inline float-right animate-pulse;
+}
+
+.badge_2{
+  @apply text-xs text-gray-300 mt-2 inline float-right animate-pulse;
+}
+
+.uni{
+    @apply font-bold text-xl text-center;
+}
+.unit{
+  @apply block text-xs;
+}
+.data{
+  @apply border p-4 text-center;
+}
+
+/* Smaller screens */
+@media(max-width: 576px){
+
+}
+.drape{
+  cursor: pointer;
+  width:24px;
+  height: 24px;
+  transition: all 0.25s;
+  position: relative;
+}
+.drape-top,
+.drape-middle,
+.drape-bottom{
+  position:absolute;
+  top:0;
+  left:0;
+  width: 24px;
+  height: 2px;
+  background:#fff;
+  transform: rotate(0);
+  transition: all 0.5s;
+}
+.drape-middle{
+  transform: translateY(7px);
+}
+.drape-bottom{
+    transform: translateY(14px);
+}
+.open{
+  transform: rotate(90deg);
+  transform: translateY(0px);
+}
+.open .drape-top{
+  transform: rotate(45deg) translateY(6px) translate(6px);
+}
+.open .drape-middle{
+  display:none;
+}
+.open .drape-bottom{
+  transform: rotate(-45deg) translateY(6px) translate(-6px);
+}
